@@ -1,0 +1,36 @@
+
+#uploadResultBtn {
+    width:300px;
+    margin: auto 34%;
+}
+
+#uploadResultFile{
+    margin: 3% 41%;
+}
+
+#sampleSheetLink{
+margin: auto 30% auto 39%;
+
+}
+
+.subjectDD{
+    margin-left: 39%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#marksDataRow{
+    margin-left: 11%;
+}
+
+#uploadResultOneByOne{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    width: 300px;
+}
+
+#fileWarning{
+    margin-bottom: 10px;
+    margin-left: 39%;
+}

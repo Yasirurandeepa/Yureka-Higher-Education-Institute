@@ -1,0 +1,222 @@
+
+.containerlayout {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#left_container {
+    float: left;
+    width:20vw;
+    margin: 0;
+    padding: 1em;
+}
+
+#right_container {
+    padding: 25px;
+    overflow: hidden;
+    background-color: #eee;
+    border-radius: 30px;
+    min-height: 80vh;
+    margin-bottom: 30px;
+}
+
+
+.vertical-menu {
+    width: 20vw;
+    margin-top: 20px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+ul li{
+    margin-right: 10px;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#userData{
+    width:20vw;
+    height: 20vh;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: -25px;
+    transition: display;
+    transition-delay: 0.5s;
+}
+
+#userData div{
+    width: 100%;
+    height: 50%;
+    text-align: left;
+}
+
+#dayTime{
+    font-size:20px;
+    padding-top: 32px;
+    padding-bottom: 0;
+}
+
+#userData img{
+  margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+
+
+select{
+    width: 200px;
+}
+
+.notification_panel , .advertisement_panel{
+    margin: 10px 50px 60px 50px;
+}
+
+ul{
+    margin-left: -40px;
+}
+
+
+/*Add Teacher*/
+
+.formContainer{
+    width: 50%;
+    margin: auto;
+}
+
+.updateCourses_panel{
+    overflow: scroll;
+}
+
+#teacherSelect{
+    width: 100%;
+}
+
+
+/*Index*/
+
+
+
+#generateIndex{
+    width: 50%;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+#displayIndex ,#atdisplayIndex{
+    width: 80%;
+    background-color: white;
+    font-size: 150px;
+    text-align: center;
+    border-radius: 150px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-top: 80px;
+}
+
+#atdisplayIndex{
+    width: 150%;
+    margin-left: -26%;
+}
+
+#issuedIndex{
+    width: 20%;
+    border-radius: 30px;
+    margin-left: 40%;
+}
+
+#atissuedIndex{
+    width: 60%;
+    border-radius: 30px;
+    margin-left: 20% ;
+}
+
+table {
+    margin: 5% auto 5% auto;
+    width: 80%;
+}
+
+td, th {
+   text-align: center;
+}
+
+
+td input[type=text],td input[type=time],td select,td{
+    width: 15vw;
+}
+
+#update_section{
+    overflow: auto; overflow-y: hidden;
+}
+
+#deleteBorder{
+    width: 99%;
+    height: 250px;
+    border: solid red 3px;
+    border-radius: 25px;
+    background-color: rgba(214, 47, 63,0.2);
+    margin-bottom: 30px;
+}
+
+#deleteBtn{
+    background-color: rgba(255, 0, 0,0.6);
+}
+
+#deleteBtn:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+#stumail{
+  text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+/*search box*/
+.searchContainer{
+    width: 400px;
+}
+
+#index,#indext{
+    float: left;
+    width: 300px;
+}
+
+.searchBtn{
+    float: right;
+    width: 100px;
+    padding: 11.5px 20px;
+}
+
+.searchContainer{
+    padding: 50px auto;
+}
+
+#searchContainer{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+#searchBoxfooter{
+    margin-top: 25px;
+}

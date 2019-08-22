@@ -1,0 +1,70 @@
+.advContainer {
+    position: relative;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: block;
+    width: 615px;
+    height: 300px;
+    border-radius: 80px 15px;
+    box-shadow: gray 7px 7px 6px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 45vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0FAF42;
+    border-radius: 80px 15px;
+}
+
+.advContainer:hover .overlay {
+    opacity: 0.7;
+}
+
+
+.text {
+    text-align:center;
+    width : 80%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    word-wrap:break-word;
+}
+
+.advText_r , .advText_l{
+    margin: 80px;
+    width :30vw;
+    font-size: large;
+}
+
+.advText_r{
+    text-align: start;
+}
+
+.advText_l{
+    text-align: end;
+}
+
+td{
+    align-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+    table td{
+    }
+}
